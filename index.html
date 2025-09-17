@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Field Visit Locations: Hetauda and Tilottama</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+        }
+
+        h2 {
+            color: #34495e;
+            border-bottom: 2px solid #bdc3c7;
+            padding-bottom: 10px;
+        }
+
+        .section {
+            margin-bottom: 40px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        th,
+        td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #3498db;
+            color: white;
+        }
+
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+
+        a {
+            color: #2980b9;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .search-input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .map-button {
+            display: inline-block;
+            padding: 8px 12px;
+            background-color: #3498db;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            text-decoration: none;
+            margin-right: 5px;
+        }
+
+        .map-button:hover {
+            background-color: #2980b9;
+            text-decoration: none;
+        }
+
+        .alt-map-button {
+            display: inline-block;
+            padding: 8px 12px;
+            background-color: #e67e22;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            text-decoration: none;
+        }
+
+        .alt-map-button:hover {
+            background-color: #d35400;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Field Visit Locations</h1>
+
+    <div class="section" id="hetauda-section">
+        <h2>Hetauda Locations</h2>
+        <input type="text" id="hetauda-search" class="search-input" placeholder="Search Hetauda places...">
+        <table id="hetauda-table">
+            <thead>
+                <tr>
+                    <th>Place</th>
+                    <th>Ward No</th>
+                    <th>Google Maps Link</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Huprachaur ward no 4</td>
+                    <td>04</td>
+                    <td><a href="https://www.google.com/maps/search/?api=1&query=27.42256032043545,85.03433558422006"
+                            target="_blank" class="map-button">View on Maps</a></td>
+                </tr>
+                <tr>
+                    <td>Kampa Dada ward no 5</td>
+                    <td>05</td>
+                    <td><a href="https://www.google.com/maps/search/?api=1&query=27.41062344974883,85.04849467367575"
+                            target="_blank" class="map-button">View on Maps</a></td>
+                </tr>
+                <tr>
+                    <td>Kamane</td>
+                    <td>04</td>
+                    <td><a href="https://www.google.com/maps/search/?api=1&query=27.4007607221541,85.03353291703465"
+                            target="_blank" class="map-button">View on Maps</a></td>
+                </tr>
+                <tr>
+                    <td>Shramik Park ward no 4</td>
+                    <td>04</td>
+                    <td><a href="https://www.google.com/maps/search/?api=1&query=27.415009,85.029667" target="_blank"
+                            class="map-button">View on Maps</a></td>
+                </tr>
+                <tr>
+                    <td>Shantinagar Gardoi (Laxmi Tole)</td>
+                    <td>04</td>
+                    <td><a href="https://www.google.com/maps/search/?api=1&query=27.414635,85.040159" target="_blank"
+                            class="map-button">View on Maps</a></td>
+                </tr>
+                <tr>
+                    <td>Neureni Tole (Selfie Danda)</td>
+                    <td>10</td>
+                    <td><a href="https://www.google.com/maps/search/?api=1&query=27.42998714357346,85.02488594677077"
+                            target="_blank" class="map-button">View on Maps</a></td>
+                </tr>
+                <tr>
+                    <td>Bhutan Devi</td>
+                    <td>10</td>
+                    <td><a href="https://www.google.com/maps/search/?api=1&query=27.43018040032486,85.02301047301063"
+                            target="_blank" class="map-button">View on Maps</a></td>
+                </tr>
+                <tr>
+                    <td>Bhutan Devi Buddha Park</td>
+                    <td>10</td>
+                    <td><a href="https://www.google.com/maps/search/?api=1&query=27.42920329660242,85.02140106297658"
+                            target="_blank" class="map-button">View on Maps</a></td>
+                </tr>
+                <tr>
+                    <td>Children Park</td>
+                    <td>04</td>
+                    <td><a href="https://www.google.com/maps/search/?api=1&query=27.41915139623188,85.03849631969246"
+                            target="_blank" class="map-button">View on Maps</a></td>
+                </tr>
+                <tr>
+                    <td>Ratna Kaali Temple</td>
+                    <td>05</td>
+                    <td><a href="https://www.google.com/maps/search/?api=1&query=27.42446623843271,85.04566567592451"
+                            target="_blank" class="map-button">View on Maps</a></td>
+                </tr>
+                <tr>
+                    <td>Sitanagar</td>
+                    <td>05</td>
+                    <td><a href="https://www.google.com/maps/search/?api=1&query=27.422906,85.054159" target="_blank"
+                            class="map-button">View on Maps</a></td>
+                </tr>
+                <tr>
+                    <td>Toni Hagen Park</td>
+                    <td>10</td>
+                    <td><a href="https://www.google.com/maps/search/?api=1&query=27.42723006216618,85.02566342893219"
+                            target="_blank" class="map-button">View on Maps</a></td>
+                </tr>
+                <tr>
+                    <td>Ikshya Kamana Temple Premises</td>
+                    <td>05</td>
+                    <td><a href="https://www.google.com/maps/search/?api=1&query=27.40893384754589,85.04948970821792"
+                            target="_blank" class="map-button">View on Maps</a></td>
+                </tr>
+                <tr>
+                    <td>Chautara near Karra Bridge</td>
+                    <td>04</td>
+                    <td><a href="https://www.google.com/maps/search/?api=1&query=27.41434400252354,85.02566150842772"
+                            target="_blank" class="map-button">View on Maps</a></td>
+                </tr>
+                <tr>
+                    <td>Bal Udhyan ward 9</td>
+                    <td>09</td>
+                    <td><a href="https://www.google.com/maps/search/?api=1&query=27.39734610514616,85.01701140103575"
+                            target="_blank" class="map-button">View on Maps</a></td>
+                </tr>
+                <tr>
+                    <td>Bhairav Temple Premises</td>
+                    <td>04</td>
+                    <td><a href="https://www.google.com/maps/search/?api=1&query=27.42582126201597,85.0365963761075"
+                            target="_blank" class="map-button">View on Maps</a></td>
+                </tr>
+                <tr>
+                    <td>Dakshinkali Temple Premises</td>
+                    <td>09</td>
+                    <td><a href="https://www.google.com/maps/search/?api=1&query=27.429333,85.047444" target="_blank"
+                            class="map-button">View on Maps</a></td>
+                </tr>
+                <tr>
+                    <td>Open Gym</td>
+                    <td>-</td>
+                    <td><a href="https://www.google.com/maps/search/?api=1&query=27.439135,85.03596899999999"
+                            target="_blank" class="map-button">View on Maps</a></td>
+                </tr>
+                <tr>
+                    <td>Triveni Dham</td>
+                    <td>09</td>
+                    <td><a href="https://www.google.com/maps/search/?api=1&query=27.42025917675321,85.01208675768393"
+                            target="_blank" class="map-button">View on Maps</a></td>
+                </tr>
+                <tr>
+                    <td>Jaleswor Mandir</td>
+                    <td>09</td>
+                    <td><a href="https://www.google.com/maps/search/?api=1&query=27.40445335663889,85.01707012125932"
+                            target="_blank" class="map-button">View on Maps</a></td>
+                </tr>
+                <tr>
+                    <td>Vaidhya Dhan Baba</td>
+                    <td>09</td>
+                    <td><a href="https://www.google.com/maps/search/?api=1&query=27.40570147967651,85.02037363394977"
+                            target="_blank" class="map-button">View on Maps</a></td>
+                </tr>
+                <tr>
+                    <td>Durga Temple</td>
+                    <td>09</td>
+                    <td><a href="https://www.google.com/maps/search/?api=1&query=27.40511792662128,85.01992794651702"
+                            target="_blank" class="map-button">View on Maps</a></td>
+                </tr>
+                <tr>
+                    <td>Shahid Smarak</td>
+                    <td></td>
+                    <td><a href="https://www.google.com/maps/search/?api=1&query=27.44468521917116,85.00040206716437"
+                            target="_blank" class="map-button">View on Maps</a></td>
+                </tr>
+                <tr>
+                    <td>Pushpalal Smriti Park</td>
+                    <td>~10</td>
+                    <td><a href="https://www.google.com/maps/search/?api=1&query=27.42786902266582,85.03887009443976"
+                            target="_blank" class="map-button">View on Maps</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="section" id="tilottama-section">
+        <h2>Tilottama Locations</h2>
+        <input type="text" id="tilottama-search" class="search-input" placeholder="Search Tilottama places...">
+        <table id="tilottama-table">
+            <thead>
+                <tr>
+                    <th>Place</th>
+                    <th>Ward No</th>
+                    <th>Google Maps Link</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Simanagar Haatbajar</td>
+                    <td>--</td>
+                    <td><a href="https://www.google.com/maps/search/?api=1&query=27.65977107,83.45384211"
+                            target="_blank" class="map-button">View on Maps</a></td>
+                </tr>
+                <tr>
+                    <td>Shreer Shringheshwor Dham Mandir</td>
+                    <td>03</td>
+                    <td><a href="https://www.google.com/maps/search/?api=1&query=27.65724304,83.4535931" target="_blank"
+                            class="map-button">View on Maps</a> (<a href="https://maps.app.goo.gl/Q7pVFouKxXxtNaEt8"
+                            target="_blank" class="alt-map-button">Alt Link</a>)</td>
+                </tr>
+                <tr>
+                    <td>Ward 4 Office</td>
+                    <td>4</td>
+                    <td><a href="https://www.google.com/maps/search/?api=1&query=27.6531944,83.4529722" target="_blank"
+                            class="map-button">View on Maps</a> (<a href="https://maps.app.goo.gl/NxbUEa3sdgXHfnLx8"
+                            target="_blank" class="alt-map-button">Alt Link</a>)</td>
+                </tr>
+                <tr>
+                    <td>Milan Park</td>
+                    <td>04</td>
+                    <td><a href="https://www.google.com/maps/search/?api=1&query=27.65225749,83.45278071"
+                            target="_blank" class="map-button">View on Maps</a> (<a
+                            href="https://maps.app.goo.gl/BK3wR1MPTxFN8pky7" target="_blank" class="alt-map-button">Alt
+                            Link</a>)</td>
+                </tr>
+                <tr>
+                    <td>Banbatika Park</td>
+                    <td>01</td>
+                    <td><a href="https://www.google.com/maps/search/?api=1&query=27.65322504,83.48234199"
+                            target="_blank" class="map-button">View on Maps</a> (<a
+                            href="https://maps.app.goo.gl/scM6bzugZZZqbjsV6" target="_blank" class="alt-map-button">Alt
+                            Link</a>)</td>
+                </tr>
+                <tr>
+                    <td>Open Space Ward 5</td>
+                    <td>5</td>
+                    <td><a href="https://www.google.com/maps/search/?api=1&query=27.62259888,83.47010903"
+                            target="_blank" class="map-button">View on Maps</a></td>
+                </tr>
+                <tr>
+                    <td>Samjhana Baal Udhaan</td>
+                    <td>09</td>
+                    <td><a href="https://www.google.com/maps/search/?api=1&query=27.61163577,83.47548223"
+                            target="_blank" class="map-button">View on Maps</a></td>
+                </tr>
+                <tr>
+                    <td>Ram Janaki Mandir</td>
+                    <td>09</td>
+                    <td><a href="https://www.google.com/maps/search/?api=1&query=27.6105417,83.47567826" target="_blank"
+                            class="map-button">View on Maps</a> (<a href="https://maps.app.goo.gl/16cHKFGoRG5VQ4ay5"
+                            target="_blank" class="alt-map-button">Alt Link</a>)</td>
+                </tr>
+                <tr>
+                    <td>Mokshyadham Mandir</td>
+                    <td>06</td>
+                    <td><a href="https://www.google.com/maps/search/?api=1&query=27.60719054,83.44440757"
+                            target="_blank" class="map-button">View on Maps</a> (<a
+                            href="https://maps.app.goo.gl/yGfMnKv2nci11w4y5" target="_blank" class="alt-map-button">Alt
+                            Link</a>)</td>
+                </tr>
+                <tr>
+                    <td>Kunja Park</td>
+                    <td>06</td>
+                    <td><a href="https://www.google.com/maps/search/?api=1&query=27.62091004,83.45995746"
+                            target="_blank" class="map-button">View on Maps</a> (<a
+                            href="https://maps.app.goo.gl/96JgoGhC87bP5bz89" target="_blank" class="alt-map-button">Alt
+                            Link</a>)</td>
+                </tr>
+                <tr>
+                    <td>Open Space 1 – Ward 6</td>
+                    <td>6</td>
+                    <td><a href="https://www.google.com/maps/search/?api=1&query=27.62001294,83.46344713"
+                            target="_blank" class="map-button">View on Maps</a> (<a
+                            href="https://maps.app.goo.gl/96JgoGhC87bP5bz89" target="_blank" class="alt-map-button">Alt
+                            Link for Tilottama IT park</a>)</td>
+                </tr>
+                <tr>
+                    <td>Open Gym</td>
+                    <td>06</td>
+                    <td><a href="https://www.google.com/maps/search/?api=1&query=27.6298169,83.46814207" target="_blank"
+                            class="map-button">View on Maps</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <script>
+        function setupSearch(tableId, searchId) {
+            const input = document.getElementById(searchId);
+            const table = document.getElementById(tableId);
+            const tr = table.getElementsByTagName('tr');
+
+            input.addEventListener('keyup', function () {
+                const filter = input.value.toUpperCase();
+                for (let i = 1; i < tr.length; i++) {
+                    const tdPlace = tr[i].getElementsByTagName('td')[0];
+                    const tdWard = tr[i].getElementsByTagName('td')[1];
+                    if (tdPlace || tdWard) {
+                        const txtValue = (tdPlace.textContent || tdPlace.innerText) + (tdWard.textContent || tdWard.innerText);
+                        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                            tr[i].style.display = '';
+                        } else {
+                            tr[i].style.display = 'none';
+                        }
+                    }
+                }
+            });
+        }
+
+        setupSearch('hetauda-table', 'hetauda-search');
+        setupSearch('tilottama-table', 'tilottama-search');
+    </script>
+</body>
+
+</html>
